@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="WLRsV8uW_0o0ZzB6t8qtuKXBUPyz-Fy7dSyx2DQSZjE" />
+    <title>GullyScore — Gully Cricket Scoring App</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a1f0d 0%, #132a15 50%, #1a3a1c 100%);
+            color: #e8e8e8;
+            min-height: 100vh;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+        .hero { text-align: center; margin-bottom: 48px; }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #4ade80, #22c55e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: #a3a3a3;
+            line-height: 1.6;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .feature h3 { font-size: 1rem; color: #4ade80; margin-bottom: 6px; }
+        .feature p { font-size: 0.85rem; color: #a3a3a3; line-height: 1.5; }
+        .links {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .links a {
+            color: #4ade80;
+            text-decoration: none;
+            margin: 0 16px;
+            font-size: 0.9rem;
+        }
+        .links a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        @media (max-width: 500px) {
+            .features { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>GullyScore</h1>
+            <p>The ultimate gully cricket scoring app. Score matches ball-by-ball, track player stats, and share live scores with your group — all from your iPhone and Apple Watch.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Live Scoring</h3>
+                <p>Ball-by-ball scoring with extras, wickets, wagon wheel, and real-time score updates.</p>
+            </div>
+            <div class="feature">
+                <h3>Player Stats</h3>
+                <p>Career stats, leaderboards, and match-by-match performance tracking for your group.</p>
+            </div>
+            <div class="feature">
+                <h3>Group Play</h3>
+                <p>Create groups, invite friends with a code, and share live match scores across devices.</p>
+            </div>
+            <div class="feature">
+                <h3>Apple Watch</h3>
+                <p>Score matches from your wrist or follow live games on your Watch companion app.</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 GullyScore. Built for the love of gully cricket.
+        </div>
+    </div>
+</body>
+</html>
